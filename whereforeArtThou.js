@@ -31,9 +31,13 @@ for (var prop in obj) {
 
 console.log("=====================================");
 
-// let source = [{ "a": 1 }, { "a": 1 }, { "a": 1, "b": 2 }];
-let source = { "a": 1 };
+let source1 = [{ "a": 1 }, { "a": 1 }, { "a": 1, "b": 2 }];
+let source2 = { "a": 1 };
 
-for (var prop in source) {
-	console.log(source[prop]);
+for (var prop in source1) {
+	console.log(source1[prop]);
+}
+
+for (var prop in source2) {
+	console.log(source2[prop]);
 }
